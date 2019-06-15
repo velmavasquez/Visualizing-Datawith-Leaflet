@@ -33,7 +33,7 @@ function createFeatures(earthquakeData) {
             return mag * 2;
         }
         else {
-            return mag*8;
+            return mag*6;
         }
     }
 
@@ -108,7 +108,7 @@ function createMap(earthquakes) {
         center: [
             10.5994, -7.6731
         ],
-        zoom: 2.7,
+        zoom: 2.0,
         layers: [grayscaleMap, earthquakes]
     });
 
