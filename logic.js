@@ -33,7 +33,7 @@ function createFeatures(earthquakeData) {
             return mag * 2;
         }
         else {
-            return mag*6;
+            return mag*4;
         }
     }
 
